@@ -20,4 +20,5 @@ export class CreateProdutoDto {
   @IsString()
   @IsOptional()
   imagem_url?: string;
+  
 }
